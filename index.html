@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module"></script>
+
+    <title>Static Resume</title>
+    
+</head>
+
+<body>
+    <div class="resume">
+        <section class="personal-info">
+            <h2>Personal Information</h2>
+            <img id="profile-picture" src="img/profile.png" alt="Profile Picture">
+            <p><strong>Name:</strong> Zain Khan</p>
+            <p><strong>Address:</strong>M.T.Khan Road Sultanabad</strong></p>
+            <p><strong>Phone Number:</strong>03122979793</strong></p>
+            <p><strong>Email:</strong> zainmd.htm@gmail.com</p>
+            <p><strong>About Me:</strong> I am a web developer specializing in responsive, user-friendly websites. 
+                With expertise in HTML, CSS, JavaScript, TypeScript, Next.js Tailwind CSS, and React, I create high-performance, accessible,
+                 and engaging web applications.</p>
+
+        </section>
+        
+
+        <section id="education" class="section">
+            <h2>Education</h2>
+
+            <p><strong>Degree:</strong></p>
+            <p>Bachelor of Software Engineering (BSSE)</p>
+            <p><strong>School/Academy:</strong></p>
+            <p>ILMA University</p>
+            <p><strong>Start Date:</strong></p>
+            March, 2013.
+            <p><strong>End Date:</strong></p>
+            <p> May, 2017</p>
+
+            <p><strong>Certification</strong></p>
+            <p>Certified Cloud Applied Generative AI Engineer (GenEng)</p>
+            <p><strong>School/Academy:</strong></p>
+            <p>Governor Sindh IT Program</p>
+            <p><strong>Start Date:</strong></p>
+            <p>February, 2024</p>
+            <p><strong>End Date:</strong></p>
+            <p>In Progress</p>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>TypeScript</li>
+                <li>Next.js, Tailwindcss, React</li>
+            </ul>
+        </section>
+
+        <section id="work-experience-section" class="work-experience">
+            <h2>Work Experience</h2>
+            <p><strong>Job Title:</strong></p>
+            <p>Freelancer</p>
+            <p><strong>Company Name: </strong></p>
+            <p>Self-Employed</p>
+            <p><strong>From</strong></p>
+            <p>2023</p>
+            <p><strong>Till</strong></p>
+            <p>2024</p>
+        </section>
+        <div class="buttons">
+            <button style="float: right;" onclick="toggleSection('skills')">Toggle Skills</button>
+            <button style="float: right;" onclick="toggleSection('education')">Toggle Education</button>
+            <button onclick="toggleForm('update-form')">Resume Builder</button>
+        </div>
+    </div>
+
+
+    <script  src="script.js"> </script>
+    <script src="update.js">
+    </script>
+
+   
+
+
+
+</body>
+
+</html>
